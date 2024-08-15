@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormFive", "FormFive.csproj", "{E58BE124-1DDE-4A95-BEE5-01BC5BE6D9FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E58BE124-1DDE-4A95-BEE5-01BC5BE6D9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58BE124-1DDE-4A95-BEE5-01BC5BE6D9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58BE124-1DDE-4A95-BEE5-01BC5BE6D9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58BE124-1DDE-4A95-BEE5-01BC5BE6D9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {132697FE-D529-429D-BF82-D310E6BD5050}
+	EndGlobalSection
+EndGlobal
