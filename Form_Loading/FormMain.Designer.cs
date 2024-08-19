@@ -33,6 +33,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             // 
             // buttonShowFormFive
             // 
-            this.buttonShowFormFive.Location = new System.Drawing.Point(50, 495);
+            this.buttonShowFormFive.Location = new System.Drawing.Point(75, 454);
             this.buttonShowFormFive.Name = "buttonShowFormFive";
             this.buttonShowFormFive.Size = new System.Drawing.Size(124, 54);
             this.buttonShowFormFive.TabIndex = 1;
@@ -86,7 +87,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label1.Font = new System.Drawing.Font("Lucida Handwriting", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 185);
+            this.label1.Location = new System.Drawing.Point(17, 185);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(270, 23);
             this.label1.TabIndex = 4;
@@ -115,22 +116,36 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label4.Location = new System.Drawing.Point(452, 522);
+            this.label4.Location = new System.Drawing.Point(464, 451);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 24);
+            this.label4.Size = new System.Drawing.Size(46, 24);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Sign Up";
+            this.label4.Text = "Test";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.buttonShowFormFive);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-5, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(290, 576);
+            this.panel1.Size = new System.Drawing.Size(310, 632);
             this.panel1.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(78, 40);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 31);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Handcrafts";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // FormMain
             // 
@@ -171,6 +186,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label5;
     }
 }
 
