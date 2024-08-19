@@ -30,14 +30,16 @@ namespace Form_Loading {
         // This is an object of type Form that will allows us
         // to control FormOne when we want to after we create
         // it in this forms constructor.
-        private int totalDistance;
+       
         private string username = "satyam";
         private int password = 1234;
 
         Form formOne;        
 
         // FormTwo can be accessed from FormMain
-        Form FormTwo; 
+        Form FormTwo;
+
+        Form formFive;
 
         // FormFive is within a separate project so we
         // need an object reference to it. This is created
@@ -55,7 +57,7 @@ namespace Form_Loading {
             // This creates FormOne and FormTwo. The this command
             // tells each form who its parent is.
             //totalDistance = 1024;
-            formOne = new FormOne(this,totalDistance);
+            formOne = new FormOne(this);
             
             FormTwo = new FormTwo(this); 
             
@@ -128,14 +130,18 @@ namespace Form_Loading {
 
         private void label4_Click(object sender, EventArgs e)
         {
-            // Make FormMain invisible
-            this.Visible = false;
+            textBox1.Text = username;
+            textBox2.Text=password.ToString();
+            formOne.ShowDialog();
 
-            // Now tell FormTwo to show itself.
-            FormTwo.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

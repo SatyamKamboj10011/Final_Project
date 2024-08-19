@@ -79,6 +79,12 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Navigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navigation.Designer.cs">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -96,6 +102,9 @@
     <EmbeddedResource Include="FormTwo.resx">
       <DependentUpon>FormTwo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigation.resx">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -104,6 +113,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -123,6 +133,9 @@
       <Project>{e58be124-1dde-4a95-bee5-01bc5be6d9fd}</Project>
       <Name>FormFive</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handicraft-1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,42 +9,37 @@ using System.Windows.Forms;
 namespace Form_Loading {
     public partial class FormOne : Form {
 
-        Form FormParent; 
-        private int totalDistance;
-        public int TotalDistance {
-            get {return totalDistance; }
-        }
+        Form FormParent;
+        Form FormThree;
+       
+        
 
         //
         // Constructor FormOne
         // ===================
-        public FormOne(Form FormParent, int TotalDistance) {
+        public FormOne(Form FormParent) {
             InitializeComponent();
-            this.totalDistance = TotalDistance;
-            textBoxTotalDistance.Text = totalDistance.ToString();   
+           
+            //textBoxTotalDistance.Text = totalDistance.ToString();   
 
             // The parent of this form is FormMain. A reference
             // to it was passed in via this Constructor. Save it
             // so we know where to go back to.
             this.FormParent = FormParent;
+
+            // Form One can also display Form Three ...
+            FormThree = new FormThree(this);
+
+          
+
         }
 
         private void FormOne_Load(object sender, EventArgs e) {
         }
 
-        //
-        // buttonGoBack_Click
-        // ==================
-        private void buttonGoBack_Click(object sender, EventArgs e) {
-            // Hide FormOne now we have finished with it.
-            //FormParent.TotalDistance = totalDistance;
-            totalDistance = 1000;
-            this.Visible = false;
-
-            // Go back to the parent of this form. It is FormMain.
-            FormParent.Show();
+        private void navigation1_Load(object sender, EventArgs e)
+        {
+            
         }
-
-        
     }
 }

@@ -13,5 +13,10 @@ namespace Form_Loading {
         public FormFour() {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

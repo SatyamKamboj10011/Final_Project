@@ -23,30 +23,26 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.buttonGoBack = new System.Windows.Forms.Button();
-            this.textBoxTotalDistance = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.navigation1 = new Form_Loading.Navigation();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonGoBack
+            // pictureBox1
             // 
-            this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGoBack.Location = new System.Drawing.Point(16, 15);
-            this.buttonGoBack.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonGoBack.Name = "buttonGoBack";
-            this.buttonGoBack.Size = new System.Drawing.Size(149, 66);
-            this.buttonGoBack.TabIndex = 0;
-            this.buttonGoBack.Text = "Go Back to Form Main";
-            this.buttonGoBack.UseVisualStyleBackColor = true;
-            this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
+            this.pictureBox1.Location = new System.Drawing.Point(267, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(787, 200);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
-            // textBoxTotalDistance
+            // navigation1
             // 
-            this.textBoxTotalDistance.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTotalDistance.Location = new System.Drawing.Point(277, 27);
-            this.textBoxTotalDistance.Margin = new System.Windows.Forms.Padding(4);
-            this.textBoxTotalDistance.Name = "textBoxTotalDistance";
-            this.textBoxTotalDistance.Size = new System.Drawing.Size(132, 29);
-            this.textBoxTotalDistance.TabIndex = 1;
+            this.navigation1.Location = new System.Drawing.Point(3, -1);
+            this.navigation1.Name = "navigation1";
+            this.navigation1.Size = new System.Drawing.Size(258, 584);
+            this.navigation1.TabIndex = 4;
+            this.navigation1.Load += new System.EventHandler(this.navigation1_Load);
             // 
             // FormOne
             // 
@@ -54,21 +50,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.textBoxTotalDistance);
-            this.Controls.Add(this.buttonGoBack);
+            this.Controls.Add(this.navigation1);
+            this.Controls.Add(this.pictureBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormOne";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "This is Form One";
             this.Load += new System.EventHandler(this.FormOne_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button buttonGoBack;
         private System.Windows.Forms.TextBox textBoxTotalDistance;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Navigation navigation1;
     }
 }

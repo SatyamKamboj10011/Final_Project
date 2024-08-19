@@ -34,9 +34,10 @@
             // buttonGoBack
             // 
             this.buttonGoBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonGoBack.Location = new System.Drawing.Point(12, 12);
+            this.buttonGoBack.Location = new System.Drawing.Point(16, 15);
+            this.buttonGoBack.Margin = new System.Windows.Forms.Padding(4);
             this.buttonGoBack.Name = "buttonGoBack";
-            this.buttonGoBack.Size = new System.Drawing.Size(112, 54);
+            this.buttonGoBack.Size = new System.Drawing.Size(149, 66);
             this.buttonGoBack.TabIndex = 1;
             this.buttonGoBack.Text = "Go Back to Form Two";
             this.buttonGoBack.UseVisualStyleBackColor = true;
@@ -44,11 +45,12 @@
             // 
             // FormThree
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.buttonGoBack);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormThree";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "This is Form Three";
