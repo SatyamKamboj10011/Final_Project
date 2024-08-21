@@ -5,6 +5,7 @@
 // 
 using System;
 using System.Windows.Forms;
+using Form_Loading.Resources;
 
 namespace Form_Loading {
     public partial class FormThree : Form {
@@ -38,6 +39,64 @@ namespace Form_Loading {
             FormParent.Show();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            imageOnedes imageOnedes = new imageOnedes();    
+            imageOnedes.Show();
+            this.Hide();
+        }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            imageTwodes imageTwodes = new imageTwodes();    
+            imageTwodes.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            imageThreedes imageThreedes = new imageThreedes();
+            imageThreedes.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            imageFourdes imageFourdes = new imageFourdes(); 
+            imageFourdes.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            imageFivedes imageFivedes = new imageFivedes();
+            imageFivedes.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

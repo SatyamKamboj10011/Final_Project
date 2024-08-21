@@ -79,6 +79,30 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="imageFivedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imageFivedes.Designer.cs">
+      <DependentUpon>imageFivedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imageFourdes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imageFourdes.Designer.cs">
+      <DependentUpon>imageFourdes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imageThreedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imageThreedes.Designer.cs">
+      <DependentUpon>imageThreedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="imageTwodes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="imageTwodes.Designer.cs">
+      <DependentUpon>imageTwodes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Navigation.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -87,6 +111,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\imageOnedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\imageOnedes.Designer.cs">
+      <DependentUpon>imageOnedes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +132,18 @@
     <EmbeddedResource Include="FormTwo.resx">
       <DependentUpon>FormTwo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="imageFivedes.resx">
+      <DependentUpon>imageFivedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imageFourdes.resx">
+      <DependentUpon>imageFourdes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imageThreedes.resx">
+      <DependentUpon>imageThreedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imageTwodes.resx">
+      <DependentUpon>imageTwodes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Navigation.resx">
       <DependentUpon>Navigation.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +157,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\imageOnedes.resx">
+      <DependentUpon>imageOnedes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -136,6 +181,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Handicraft-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 4 bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2 bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image3 bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image5 bag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image5 bag1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image2 bag1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
