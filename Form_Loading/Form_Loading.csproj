@@ -203,5 +203,17 @@
   <ItemGroup>
     <None Include="Resources\image2 bag1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup-687147_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-4716454_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jewelry-7015521_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\craft-3102746_1920.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
