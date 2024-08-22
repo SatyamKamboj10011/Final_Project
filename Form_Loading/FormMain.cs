@@ -34,8 +34,8 @@ namespace Form_Loading {
         private string username = "satyam";
         private int password = 1234;
 
-        Form formOne;        
-
+        Form formOne;
+        Form FormThree;
         // FormTwo can be accessed from FormMain
         Form FormTwo;
 
@@ -60,6 +60,7 @@ namespace Form_Loading {
             formOne = new FormOne(this);
             
             FormTwo = new FormTwo(this); 
+            FormThree = new FormThree(this);
             
             // FormFive is just like the other forms,
             // but it is not in this project. It is
@@ -108,7 +109,7 @@ namespace Form_Loading {
         // =========================
         private void buttoLoadFormTwo_Click(object sender, EventArgs e) {
             // Make FormMain invisible
-            this.Visible = false;
+           this.Hide();
 
             // Now tell FormTwo to show itself.
             FormTwo.Show();

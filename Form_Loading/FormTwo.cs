@@ -46,20 +46,21 @@ namespace Form_Loading {
         // ====================
         private void buttonGoBack_Click(object sender, EventArgs e) {
             // Hide FormTwo now we have finished with it.
-            this.Visible = false;
+          this.Hide();
 
             // Go back to the parent of this form. It is FormMain.
             FormParent.Show();
+           
         }
 
         //
         // buttonLoadFormThree_Click()
         // ===========================
-        private void buttonLoadFormThree_Click(object sender, EventArgs e) {
+       private void buttonLoadFormThree_Click(object sender, EventArgs e) {
             // Hide FormTwo now we have finished with it.
-            this.Visible = false;
+          this.Hide();
 
-            // Load Form Three.
+            //Load Form Three.
             FormThree.Show();
         }
 

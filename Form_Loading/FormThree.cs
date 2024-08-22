@@ -31,8 +31,8 @@ namespace Form_Loading {
         // ====================
         private void buttonGoBack_Click(object sender, EventArgs e) {
             // Hide FormThree now we have finished with it.
-            this.Visible = false;
-          
+            this.Hide();
+
 
             // Go back to the parent of this form. It is FormMain.
             FormParent.Show();

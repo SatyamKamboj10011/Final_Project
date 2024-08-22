@@ -38,7 +38,7 @@ namespace Form_Loading
 
         private void buttonLoginPage_Click(object sender, EventArgs e)
         {
-
+           
             // Get the current form that contains this navigation control
             Form currentForm = FindForm();
 
@@ -46,13 +46,27 @@ namespace Form_Loading
             currentForm.Close();
 
             // Show the main form (FormMain)
-            FormMain mainForm = new FormMain();
+            FormMain mainForm = new FormMain(); 
             mainForm.Show();
+
+            
         }
 
       
 
         private void buttonSignUp_Click(object sender, EventArgs e)
+        {
+            
+            Form currentForm = FindForm();
+
+            currentForm.Close();
+            
+
+            FormTwo formTwo = new FormTwo(currentForm);
+            formTwo.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
