@@ -63,6 +63,26 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap craft_3102746_1920 {
+            get {
+                object obj = ResourceManager.GetObject("craft-3102746_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cup_687147_1920 {
+            get {
+                object obj = ResourceManager.GetObject("cup-687147_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Handicraft_1 {
             get {
                 object obj = ResourceManager.GetObject("Handicraft-1", resourceCulture);
@@ -136,6 +156,26 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap image5_bag1 {
             get {
                 object obj = ResourceManager.GetObject("image5 bag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jewelry_7015521_1920 {
+            get {
+                object obj = ResourceManager.GetObject("jewelry-7015521_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shop_4716454_1920 {
+            get {
+                object obj = ResourceManager.GetObject("shop-4716454_1920", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

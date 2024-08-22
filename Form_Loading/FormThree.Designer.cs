@@ -135,7 +135,7 @@
             this.label2.Location = new System.Drawing.Point(581, 18);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 15);
+            this.label2.Size = new System.Drawing.Size(141, 23);
             this.label2.TabIndex = 8;
             this.label2.Text = "HAND BAGS";
             // 
@@ -145,7 +145,7 @@
             this.label3.Location = new System.Drawing.Point(316, 205);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.Size = new System.Drawing.Size(108, 22);
             this.label3.TabIndex = 14;
             this.label3.Text = "Price: $70";
             // 
@@ -155,7 +155,7 @@
             this.label4.Location = new System.Drawing.Point(581, 205);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 15);
+            this.label4.Size = new System.Drawing.Size(113, 22);
             this.label4.TabIndex = 15;
             this.label4.Text = "Price:$145";
             // 
@@ -165,7 +165,7 @@
             this.label5.Location = new System.Drawing.Point(841, 205);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 15);
+            this.label5.Size = new System.Drawing.Size(101, 22);
             this.label5.TabIndex = 16;
             this.label5.Text = "Price:$85";
             // 
@@ -175,7 +175,7 @@
             this.label6.Location = new System.Drawing.Point(316, 375);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 15);
+            this.label6.Size = new System.Drawing.Size(101, 22);
             this.label6.TabIndex = 17;
             this.label6.Text = "Price:$75";
             // 
@@ -185,7 +185,7 @@
             this.label7.Location = new System.Drawing.Point(581, 375);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 15);
+            this.label7.Size = new System.Drawing.Size(101, 22);
             this.label7.TabIndex = 18;
             this.label7.Text = "Price:$98";
             // 
@@ -274,7 +274,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(73, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 24);
+            this.label1.Size = new System.Drawing.Size(151, 32);
             this.label1.TabIndex = 5;
             this.label1.Text = "Handcrafts";
             // 
@@ -297,6 +297,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // buttonSignUp
             // 
@@ -330,7 +331,7 @@
             // 
             // FormThree
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1067, 520);

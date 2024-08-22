@@ -98,5 +98,10 @@ namespace Form_Loading {
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
