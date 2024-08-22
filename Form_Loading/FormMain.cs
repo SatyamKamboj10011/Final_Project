@@ -133,6 +133,7 @@ namespace Form_Loading {
         {
             textBox1.Text = username;
             textBox2.Text=password.ToString();
+            this.Hide();
             formOne.ShowDialog();
 
         }

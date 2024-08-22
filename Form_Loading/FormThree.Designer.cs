@@ -45,19 +45,12 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.buttonSignUp = new System.Windows.Forms.Button();
-            this.buttonViewProducts = new System.Windows.Forms.Button();
-            this.buttonLoginPage = new System.Windows.Forms.Button();
+            this.navigation1 = new Form_Loading.Navigation();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonGoBack
@@ -130,12 +123,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cooper Black", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(581, 18);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 23);
+            this.label2.Size = new System.Drawing.Size(110, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "HAND BAGS";
             // 
@@ -145,7 +138,7 @@
             this.label3.Location = new System.Drawing.Point(316, 205);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 22);
+            this.label3.Size = new System.Drawing.Size(88, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "Price: $70";
             // 
@@ -155,7 +148,7 @@
             this.label4.Location = new System.Drawing.Point(581, 205);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 22);
+            this.label4.Size = new System.Drawing.Size(92, 18);
             this.label4.TabIndex = 15;
             this.label4.Text = "Price:$145";
             // 
@@ -165,7 +158,7 @@
             this.label5.Location = new System.Drawing.Point(841, 205);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(101, 22);
+            this.label5.Size = new System.Drawing.Size(82, 18);
             this.label5.TabIndex = 16;
             this.label5.Text = "Price:$85";
             // 
@@ -175,7 +168,7 @@
             this.label6.Location = new System.Drawing.Point(316, 375);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 22);
+            this.label6.Size = new System.Drawing.Size(82, 18);
             this.label6.TabIndex = 17;
             this.label6.Text = "Price:$75";
             // 
@@ -185,7 +178,7 @@
             this.label7.Location = new System.Drawing.Point(581, 375);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(101, 22);
+            this.label7.Size = new System.Drawing.Size(82, 18);
             this.label7.TabIndex = 18;
             this.label7.Text = "Price:$98";
             // 
@@ -249,92 +242,21 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // panel1
+            // navigation1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::Form_Loading.Properties.Resources.Handicraft_1;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.buttonSignUp);
-            this.panel1.Controls.Add(this.buttonViewProducts);
-            this.panel1.Controls.Add(this.buttonLoginPage);
-            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(269, 528);
-            this.panel1.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(73, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 32);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Handcrafts";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(61, 302);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(133, 30);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(61, 250);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(133, 30);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // buttonSignUp
-            // 
-            this.buttonSignUp.Location = new System.Drawing.Point(61, 204);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonSignUp.Name = "buttonSignUp";
-            this.buttonSignUp.Size = new System.Drawing.Size(133, 30);
-            this.buttonSignUp.TabIndex = 2;
-            this.buttonSignUp.Text = "Sign Up";
-            this.buttonSignUp.UseVisualStyleBackColor = true;
-            // 
-            // buttonViewProducts
-            // 
-            this.buttonViewProducts.Location = new System.Drawing.Point(61, 156);
-            this.buttonViewProducts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonViewProducts.Name = "buttonViewProducts";
-            this.buttonViewProducts.Size = new System.Drawing.Size(133, 30);
-            this.buttonViewProducts.TabIndex = 1;
-            this.buttonViewProducts.Text = "View Products";
-            this.buttonViewProducts.UseVisualStyleBackColor = true;
-            // 
-            // buttonLoginPage
-            // 
-            this.buttonLoginPage.Location = new System.Drawing.Point(59, 117);
-            this.buttonLoginPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonLoginPage.Name = "buttonLoginPage";
-            this.buttonLoginPage.Size = new System.Drawing.Size(139, 28);
-            this.buttonLoginPage.TabIndex = 0;
-            this.buttonLoginPage.Text = "👤Login";
-            this.buttonLoginPage.UseVisualStyleBackColor = true;
+            this.navigation1.Location = new System.Drawing.Point(-2, 0);
+            this.navigation1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.navigation1.Name = "navigation1";
+            this.navigation1.Size = new System.Drawing.Size(299, 584);
+            this.navigation1.TabIndex = 19;
             // 
             // FormThree
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(1067, 520);
+            this.Controls.Add(this.navigation1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -351,7 +273,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonGoBack);
             this.Font = new System.Drawing.Font("MS Reference Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
@@ -365,8 +286,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,13 +294,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonGoBack;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button buttonSignUp;
-        private System.Windows.Forms.Button buttonViewProducts;
-        private System.Windows.Forms.Button buttonLoginPage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -398,5 +310,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private Navigation navigation1;
     }
 }
