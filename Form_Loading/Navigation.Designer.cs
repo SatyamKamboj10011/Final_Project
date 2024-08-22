@@ -41,7 +41,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = global::Form_Loading.Properties.Resources.Handicraft_1;
+            this.panel1.BackgroundImage = global::Form_Loading.Properties.Resources.bg2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button5);
@@ -69,6 +69,7 @@
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(61, 322);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(134, 32);
@@ -78,6 +79,7 @@
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(61, 266);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(134, 32);
@@ -87,16 +89,18 @@
             // 
             // buttonSignUp
             // 
+            this.buttonSignUp.Font = new System.Drawing.Font("Juice ITC", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSignUp.Location = new System.Drawing.Point(61, 216);
             this.buttonSignUp.Name = "buttonSignUp";
             this.buttonSignUp.Size = new System.Drawing.Size(134, 32);
             this.buttonSignUp.TabIndex = 2;
-            this.buttonSignUp.Text = "Sign Up";
+            this.buttonSignUp.Text = "Register";
             this.buttonSignUp.UseVisualStyleBackColor = true;
             this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
             // 
             // buttonViewProducts
             // 
+            this.buttonViewProducts.Font = new System.Drawing.Font("Juice ITC", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonViewProducts.Location = new System.Drawing.Point(61, 168);
             this.buttonViewProducts.Name = "buttonViewProducts";
             this.buttonViewProducts.Size = new System.Drawing.Size(133, 32);
@@ -107,6 +111,7 @@
             // 
             // buttonLoginPage
             // 
+            this.buttonLoginPage.Font = new System.Drawing.Font("Lucida Handwriting", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLoginPage.Location = new System.Drawing.Point(58, 124);
             this.buttonLoginPage.Name = "buttonLoginPage";
             this.buttonLoginPage.Size = new System.Drawing.Size(139, 30);
