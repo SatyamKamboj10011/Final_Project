@@ -124,8 +124,11 @@
   <data name="image2 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image2 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image 4 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image 4 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2024-08-22 160515" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-08-22 160515.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image2 bag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image2 bag1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shop-4716454_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shop-4716454_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,26 +148,32 @@
   <data name="mpK7UcbRScekCwOUGv6wAQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mpK7UcbRScekCwOUGv6wAQ.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image2 bag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image2 bag1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cup-687147_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cup-687147_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image 4 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image 4 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handicraft-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Handicraft-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image3 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image3 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="paper-3155438_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paper-3155438_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Screenshot 2024-08-22 150941" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-08-22 150941.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IMG-20240824-WA0020~2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG-20240824-WA0020~2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="paper-1074131_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paper-1074131_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="downloadedImage (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downloadedImage (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,10 +190,10 @@
   <data name="R (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (3).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Handicraft-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Handicraft-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paper-3155438_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper-3155438_640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2024-08-22 160515" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2024-08-22 160515.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -32,28 +31,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.buttoLoadFormTwo = new System.Windows.Forms.Button();
             this.buttonLoadFormOne = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::Form_Loading.Properties.Resources.downloadedImage__1_;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(524, -1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(541, 519);
-            this.panel2.TabIndex = 9;
-            // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.MistyRose;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label4);
@@ -61,16 +46,16 @@
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.buttoLoadFormTwo);
             this.panel3.Controls.Add(this.buttonLoadFormOne);
-            this.panel3.Location = new System.Drawing.Point(76, 80);
+            this.panel3.Location = new System.Drawing.Point(163, 260);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(427, 311);
+            this.panel3.Size = new System.Drawing.Size(652, 343);
             this.panel3.TabIndex = 8;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(46, 122);
+            this.label3.Location = new System.Drawing.Point(187, 82);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 25);
             this.label3.TabIndex = 6;
@@ -82,7 +67,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(46, 36);
+            this.label2.Location = new System.Drawing.Point(190, 20);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 22);
             this.label2.TabIndex = 5;
@@ -93,7 +78,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label4.Location = new System.Drawing.Point(187, 257);
+            this.label4.Location = new System.Drawing.Point(344, 218);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 24);
             this.label4.TabIndex = 7;
@@ -103,7 +88,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(40, 149);
+            this.textBox2.Location = new System.Drawing.Point(189, 110);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(347, 34);
             this.textBox2.TabIndex = 3;
@@ -111,7 +96,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(40, 74);
+            this.textBox1.Location = new System.Drawing.Point(188, 45);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(347, 34);
             this.textBox1.TabIndex = 2;
@@ -120,7 +105,7 @@
             // buttoLoadFormTwo
             // 
             this.buttoLoadFormTwo.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.buttoLoadFormTwo.Location = new System.Drawing.Point(264, 189);
+            this.buttoLoadFormTwo.Location = new System.Drawing.Point(428, 158);
             this.buttoLoadFormTwo.Name = "buttoLoadFormTwo";
             this.buttoLoadFormTwo.Size = new System.Drawing.Size(107, 39);
             this.buttoLoadFormTwo.TabIndex = 0;
@@ -131,7 +116,7 @@
             // buttonLoadFormOne
             // 
             this.buttonLoadFormOne.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.buttonLoadFormOne.Location = new System.Drawing.Point(41, 189);
+            this.buttonLoadFormOne.Location = new System.Drawing.Point(188, 158);
             this.buttonLoadFormOne.Name = "buttonLoadFormOne";
             this.buttonLoadFormOne.Size = new System.Drawing.Size(107, 39);
             this.buttonLoadFormOne.TabIndex = 0;
@@ -139,24 +124,15 @@
             this.buttonLoadFormOne.UseVisualStyleBackColor = false;
             this.buttonLoadFormOne.Click += new System.EventHandler(this.buttonLoadFormOne_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackgroundImage = global::Form_Loading.Properties.Resources.bg__1_;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(526, 519);
-            this.panel1.TabIndex = 10;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Form_Loading.Properties.Resources.Screenshot_2024_08_22_160515;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 13);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Form_Loading.Properties.Resources.a_visually_appealing_and_meaningful_logo_for_handc_oaqGsI5nTViMB4uBa5oiKw_Bd6HOpCKT8eKPaxM6sPAVA_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(227, 198);
+            this.pictureBox1.Size = new System.Drawing.Size(149, 136);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // FormMain
@@ -164,10 +140,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImage = global::Form_Loading.Properties.Resources.IMG_20240824_WA0020_2;
             this.ClientSize = new System.Drawing.Size(1067, 520);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel3);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -175,10 +151,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "This is Form Main";
             this.Load += new System.EventHandler(this.FormMain_Load);
-            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -193,8 +167,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
