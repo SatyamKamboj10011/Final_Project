@@ -147,5 +147,10 @@ namespace Form_Loading {
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

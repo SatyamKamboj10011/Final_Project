@@ -215,5 +215,14 @@
   <ItemGroup>
     <None Include="Resources\craft-3102746_1920.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG-20240824-WA0020~2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
