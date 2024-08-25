@@ -9,6 +9,7 @@ using System.Windows.Forms;
 namespace Form_Loading {
     public partial class FormOne : Form {
 
+        private Spinner spinner;
         Form FormParent;
         Form FormThree;
        
@@ -35,6 +36,13 @@ namespace Form_Loading {
         }
 
         private void FormOne_Load(object sender, EventArgs e) {
+
+            spinner = new Spinner(pictureBox1);
+
+            spinner.LoadImages();
+           
+
+            Application.DoEvents();
         }
 
         private void navigation1_Load(object sender, EventArgs e)

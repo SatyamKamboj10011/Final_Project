@@ -55,6 +55,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCart.Designer.cs">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormThree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,7 @@
     <Compile Include="Resources\imageOnedes.Designer.cs">
       <DependentUpon>imageOnedes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Spinner.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +230,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloadedImage %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img11.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img0.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

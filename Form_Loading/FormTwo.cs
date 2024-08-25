@@ -58,10 +58,10 @@ namespace Form_Loading {
         // ===========================
        private void buttonLoadFormThree_Click(object sender, EventArgs e) {
             // Hide FormTwo now we have finished with it.
-          this.Hide();
+          //this.Hide();
 
             //Load Form Three.
-            FormThree.Show();
+           // FormThree.Show();
         }
 
         private void FormTwo_Load_1(object sender, EventArgs e) {
