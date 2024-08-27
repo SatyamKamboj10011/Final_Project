@@ -324,6 +324,16 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img32 {
+            get {
+                object obj = ResourceManager.GetObject("img32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap jewelry_7015521_1920 {
             get {
                 object obj = ResourceManager.GetObject("jewelry-7015521_1920", resourceCulture);
