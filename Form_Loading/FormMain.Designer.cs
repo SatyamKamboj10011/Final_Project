@@ -57,7 +57,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(187, 82);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 25);
+            this.label3.Size = new System.Drawing.Size(101, 19);
             this.label3.TabIndex = 6;
             this.label3.Text = "Password 🔒";
             // 
@@ -69,7 +69,7 @@
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(190, 20);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 22);
+            this.label2.Size = new System.Drawing.Size(95, 19);
             this.label2.TabIndex = 5;
             this.label2.Text = "Username 👤";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -80,7 +80,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4.Location = new System.Drawing.Point(344, 218);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 24);
+            this.label4.Size = new System.Drawing.Size(37, 18);
             this.label4.TabIndex = 7;
             this.label4.Text = "Test";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -90,7 +90,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(189, 110);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(347, 34);
+            this.textBox2.Size = new System.Drawing.Size(347, 28);
             this.textBox2.TabIndex = 3;
             // 
             // textBox1
@@ -98,7 +98,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(188, 45);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(347, 34);
+            this.textBox1.Size = new System.Drawing.Size(347, 28);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -137,11 +137,12 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AcceptButton = this.buttoLoadFormTwo;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Form_Loading.Properties.Resources.IMG_20240824_WA0020_2;
-            this.ClientSize = new System.Drawing.Size(1067, 520);
+            this.ClientSize = new System.Drawing.Size(1069, 528);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.DoubleBuffered = true;
