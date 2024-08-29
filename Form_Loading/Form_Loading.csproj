@@ -133,6 +133,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCart.resx">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCategory.resx">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </EmbeddedResource>
@@ -308,6 +311,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\R %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-1074131_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-22 160515.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
