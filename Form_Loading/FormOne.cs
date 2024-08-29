@@ -54,10 +54,5 @@ namespace Form_Loading {
         {
 
         }
-
-        private void navigation1_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
