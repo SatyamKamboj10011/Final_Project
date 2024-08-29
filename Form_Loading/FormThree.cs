@@ -24,6 +24,7 @@ namespace Form_Loading {
         }
 
         private void FormThree_Load(object sender, EventArgs e) {
+
         }
 
         
@@ -110,6 +111,23 @@ namespace Form_Loading {
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            imageFivedes imageFivedes = new imageFivedes();
+            imageFivedes.Show();
+            this.Hide();
+        }
+
+        private void label23_Click(object sender, EventArgs e)
         {
 
         }
