@@ -75,5 +75,16 @@ namespace Form_Loading
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form currentForm = FindForm();
+
+            currentForm.Close();
+
+
+            FormCategory formCategory = new FormCategory(currentForm);
+            formCategory.Show();
+        }
     }
 }
