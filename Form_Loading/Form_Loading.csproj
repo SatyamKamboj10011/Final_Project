@@ -67,6 +67,18 @@
     <Compile Include="FormCategory.Designer.cs">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDecoration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDecoration.Designer.cs">
+      <DependentUpon>FormDecoration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJewellery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJewellery.Designer.cs">
+      <DependentUpon>FormJewellery.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormThree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCategory.resx">
       <DependentUpon>FormCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDecoration.resx">
+      <DependentUpon>FormDecoration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJewellery.resx">
+      <DependentUpon>FormJewellery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormOne.resx">
       <DependentUpon>FormOne.cs</DependentUpon>
@@ -313,22 +331,7 @@
     <None Include="Resources\R %281%29.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\paper-1074131_1920.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Screenshot 2024-08-22 160515.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\img1111.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pots1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\jeww.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.jpeg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
