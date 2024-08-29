@@ -63,6 +63,16 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a_visually_appealing_and_meaningful_logo_for_handc_oaqGsI5nTViMB4uBa5oiKw_Bd6HOpCKT8eKPaxM6sPAVA_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpC" +
@@ -194,9 +204,39 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Handcrafted_Saop_Label_Design_Template___Made_with_PosterMyWall {
+            get {
+                object obj = ResourceManager.GetObject("Handcrafted Saop Label Design Template - Made with PosterMyWall", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Handicraft_1 {
             get {
                 object obj = ResourceManager.GetObject("Handicraft-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hot_pink_Statement_artisan_handmade_necklace_earrings_set_40756_1_full {
+            get {
+                object obj = ResourceManager.GetObject("Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -414,6 +454,26 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jewewllery {
+            get {
+                object obj = ResourceManager.GetObject("jewewllery", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jeww {
+            get {
+                object obj = ResourceManager.GetObject("jeww", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mpK7UcbRScekCwOUGv6wAQ {
             get {
                 object obj = ResourceManager.GetObject("mpK7UcbRScekCwOUGv6wAQ", resourceCulture);
@@ -468,6 +528,16 @@ namespace Form_Loading.Properties {
             get {
                 object obj = ResourceManager.GetObject("pngtree-realistic-best-quality-badge-with-round-shape-gold-color-png-image_653236" +
                         "0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pots1 {
+            get {
+                object obj = ResourceManager.GetObject("pots1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -549,6 +619,16 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap shop_4716454_1920 {
             get {
                 object obj = ResourceManager.GetObject("shop-4716454_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ZLBg {
+            get {
+                object obj = ResourceManager.GetObject("ZLBg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -309,5 +309,29 @@
   <ItemGroup>
     <None Include="Resources\R %281%29.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pots1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZLBg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jewewllery.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jeww.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Handcrafted Saop Label Design Template - Made with PosterMyWall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
