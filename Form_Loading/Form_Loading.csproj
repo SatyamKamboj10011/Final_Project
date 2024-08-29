@@ -145,6 +145,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCart.resx">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCategory.resx">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </EmbeddedResource>
@@ -328,52 +331,7 @@
     <None Include="Resources\R %281%29.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\OIP %282%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bracelet-knotted-white-pearl-b-1-r.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OIP %283%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OIP %284%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a0dce657eac793078946b24396ad3372.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\R %282%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\4f99c4d2a99abcded7ba5f7cb303c259.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\paper-1074131_19202.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\81yGVverYfS.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\51L6KEEb1QL._AC_.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\R %283%291.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maxresdefault.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\e4fd9e2a42e4dcbc1e969d5a9b5d4718.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shutterstock_249878665.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OIP %285%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\maxresdefault %281%29.jpg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
