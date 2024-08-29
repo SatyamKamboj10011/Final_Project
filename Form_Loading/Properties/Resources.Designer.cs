@@ -63,29 +63,9 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _4f99c4d2a99abcded7ba5f7cb303c259 {
+        internal static System.Drawing.Bitmap _1 {
             get {
-                object obj = ResourceManager.GetObject("4f99c4d2a99abcded7ba5f7cb303c259", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _51L6KEEb1QL__AC_ {
-            get {
-                object obj = ResourceManager.GetObject("51L6KEEb1QL._AC_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _81yGVverYfS {
-            get {
-                object obj = ResourceManager.GetObject("81yGVverYfS", resourceCulture);
+                object obj = ResourceManager.GetObject("1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -244,9 +224,9 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap e4fd9e2a42e4dcbc1e969d5a9b5d4718 {
+        internal static System.Drawing.Bitmap Handcrafted_Saop_Label_Design_Template___Made_with_PosterMyWall {
             get {
-                object obj = ResourceManager.GetObject("e4fd9e2a42e4dcbc1e969d5a9b5d4718", resourceCulture);
+                object obj = ResourceManager.GetObject("Handcrafted Saop Label Design Template - Made with PosterMyWall", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -257,6 +237,26 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap Handicraft_1 {
             get {
                 object obj = ResourceManager.GetObject("Handicraft-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hot_pink_Statement_artisan_handmade_necklace_earrings_set_40756_1_full {
+            get {
+                object obj = ResourceManager.GetObject("Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -474,9 +474,9 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maxresdefault {
+        internal static System.Drawing.Bitmap jewewllery {
             get {
-                object obj = ResourceManager.GetObject("maxresdefault", resourceCulture);
+                object obj = ResourceManager.GetObject("jewewllery", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -484,9 +484,9 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap maxresdefault__1_ {
+        internal static System.Drawing.Bitmap jeww {
             get {
-                object obj = ResourceManager.GetObject("maxresdefault (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("jeww", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -605,6 +605,16 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pots1 {
+            get {
+                object obj = ResourceManager.GetObject("pots1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap quality_assured_rubber_stamp_quality_assured_grunge_stamp_seal_illustration_vector {
             get {
                 object obj = ResourceManager.GetObject("quality-assured-rubber-stamp-quality-assured-grunge-stamp-seal-illustration-vecto" +
@@ -706,9 +716,9 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shutterstock_249878665 {
+        internal static System.Drawing.Bitmap ZLBg {
             get {
-                object obj = ResourceManager.GetObject("shutterstock_249878665", resourceCulture);
+                object obj = ResourceManager.GetObject("ZLBg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
