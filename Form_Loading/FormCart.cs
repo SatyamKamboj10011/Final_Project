@@ -21,5 +21,15 @@ namespace Form_Loading
         {
 
         }
+
+        private void txtOrderAddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormCart_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
