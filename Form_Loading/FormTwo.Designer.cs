@@ -158,7 +158,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-           
+            this.pictureBox1.Image = global::Form_Loading.Properties.Resources.a_visually_appealing_and_meaningful_logo_for_handc_oaqGsI5nTViMB4uBa5oiKw_Bd6HOpCKT8eKPaxM6sPAVA_removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(67, 29);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(91, 94);
@@ -185,7 +185,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-           
+            this.BackgroundImage = global::Form_Loading.Properties.Resources.paper_1074131_1920;
             this.ClientSize = new System.Drawing.Size(1069, 528);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonGoBack);
