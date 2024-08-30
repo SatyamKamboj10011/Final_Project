@@ -79,6 +79,12 @@
     <Compile Include="FormJewellery.Designer.cs">
       <DependentUpon>FormJewellery.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPots.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPots.Designer.cs">
+      <DependentUpon>FormPots.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormThree.cs">
       <SubType>Form</SubType>
     </Compile>
