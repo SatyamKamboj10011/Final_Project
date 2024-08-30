@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace Form_Loading
 {
-    public partial class imageFivedes : Form
+    public partial class FormdesPic1 : Form
     {
-        public imageFivedes()
+        public FormdesPic1()
         {
             InitializeComponent();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void FormdesPic1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -27,7 +32,6 @@ namespace Form_Loading
             FormThree formThree = new FormThree(this);
             formThree.Show();
             this.Hide();
-
         }
     }
 }

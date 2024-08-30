@@ -28,5 +28,35 @@ namespace Form_Loading
             formThree.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void imageTwodes_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void navigation1_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            FormThree formThree = new FormThree(this);
+            formThree.Show();
+            this.Hide();
+        }
     }
 }

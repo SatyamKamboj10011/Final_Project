@@ -42,23 +42,19 @@ namespace Form_Loading {
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            imageOnedes imageOnedes = new imageOnedes();    
-            imageOnedes.Show();
+            FormdesPic1 FormdesPic1 = new FormdesPic1();
+            FormdesPic1.Show();
             this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            imageTwodes imageTwodes = new imageTwodes();    
-            imageTwodes.Show();
-            this.Hide();
+           
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            imageThreedes imageThreedes = new imageThreedes();
-            imageThreedes.Show();
-            this.Hide();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -78,9 +74,6 @@ namespace Form_Loading {
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            imageFourdes imageFourdes = new imageFourdes(); 
-            imageFourdes.Show();
-            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -90,9 +83,7 @@ namespace Form_Loading {
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            imageFivedes imageFivedes = new imageFivedes();
-            imageFivedes.Show();
-            this.Hide();
+           
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -122,14 +113,33 @@ namespace Form_Loading {
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            imageFivedes imageFivedes = new imageFivedes();
-            imageFivedes.Show();
-            this.Hide();
+           
         }
 
         private void label23_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            imageTwodes imageTwodes = new imageTwodes();
+            imageTwodes.Show();
+            this.Hide();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            imageThreedes imageThreedes = new imageThreedes();
+            imageThreedes.Show();
+            this.Hide();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            imageFourdes imageFourdes = new imageFourdes();
+            imageFourdes.Show();
+            this.Hide();
         }
     }
 }

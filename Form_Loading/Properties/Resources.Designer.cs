@@ -274,9 +274,29 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_4_bag1 {
+            get {
+                object obj = ResourceManager.GetObject("image 4 bag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_bag {
             get {
                 object obj = ResourceManager.GetObject("image bag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_bag1 {
+            get {
+                object obj = ResourceManager.GetObject("image bag1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -327,6 +347,16 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap image5_bag1 {
             get {
                 object obj = ResourceManager.GetObject("image5 bag1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image5_bag2 {
+            get {
+                object obj = ResourceManager.GetObject("image5 bag2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -467,6 +497,16 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap jewelry_7015521_1920 {
             get {
                 object obj = ResourceManager.GetObject("jewelry-7015521_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap last_bag {
+            get {
+                object obj = ResourceManager.GetObject("last bag", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

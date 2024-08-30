@@ -28,5 +28,10 @@ namespace Form_Loading
             formThree.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

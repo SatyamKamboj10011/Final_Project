@@ -73,6 +73,12 @@
     <Compile Include="FormDecoration.Designer.cs">
       <DependentUpon>FormDecoration.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormdesPic1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormdesPic1.Designer.cs">
+      <DependentUpon>FormdesPic1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormJewellery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +114,6 @@
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="imageFivedes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="imageFivedes.Designer.cs">
-      <DependentUpon>imageFivedes.cs</DependentUpon>
     </Compile>
     <Compile Include="imageFourdes.cs">
       <SubType>Form</SubType>
@@ -157,6 +157,9 @@
     <EmbeddedResource Include="FormDecoration.resx">
       <DependentUpon>FormDecoration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormdesPic1.resx">
+      <DependentUpon>FormdesPic1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormJewellery.resx">
       <DependentUpon>FormJewellery.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,9 +174,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTwo.resx">
       <DependentUpon>FormTwo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="imageFivedes.resx">
-      <DependentUpon>imageFivedes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="imageFourdes.resx">
       <DependentUpon>imageFourdes.cs</DependentUpon>
@@ -200,6 +200,7 @@
     <EmbeddedResource Include="Resources\imageOnedes.resx">
       <DependentUpon>imageOnedes.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="imageOne.Designer.des" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -380,6 +381,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maxresdefault %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image bag1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image5 bag2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last bag.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 4 bag1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
