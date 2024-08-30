@@ -45,6 +45,7 @@ namespace Form_Loading {
         // buttonGoBack_Click()
         // ====================
         private void buttonGoBack_Click(object sender, EventArgs e) {
+
             // Hide FormTwo now we have finished with it.
           this.Hide();
 
