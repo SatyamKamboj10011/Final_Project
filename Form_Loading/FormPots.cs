@@ -16,5 +16,10 @@ namespace Form_Loading
         {
             InitializeComponent();
         }
+
+        private void FormPots_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

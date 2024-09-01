@@ -23,6 +23,11 @@ namespace Form_Loading {
             this.FormParent = FormParent;
         }
 
+        public FormThree()
+        {
+
+        }
+
         private void FormThree_Load(object sender, EventArgs e) {
 
         }
@@ -140,6 +145,11 @@ namespace Form_Loading {
             imageFourdes imageFourdes = new imageFourdes();
             imageFourdes.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

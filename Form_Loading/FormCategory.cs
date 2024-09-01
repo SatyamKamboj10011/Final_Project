@@ -13,6 +13,9 @@ namespace Form_Loading
     public partial class FormCategory : Form
     {
         Form FormParent;
+
+        public FormThree FormThree { get; private set; }
+
         public FormCategory(Form FormParent)
         {
             InitializeComponent();
@@ -25,6 +28,31 @@ namespace Form_Loading
 
            
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FormPots formPots = new FormPots();
+            formPots.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+            FormThree formThree = new FormThree();
+            formThree.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            FormJewellery FormJewellery = new FormJewellery();
+            FormJewellery.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            FormDecoration  FormDecoration = new FormDecoration();
+            FormDecoration.Show();
         }
     }
 }

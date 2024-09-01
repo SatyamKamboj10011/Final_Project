@@ -172,6 +172,9 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPots.resx">
+      <DependentUpon>FormPots.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormThree.resx">
       <DependentUpon>FormThree.cs</DependentUpon>
     </EmbeddedResource>
@@ -396,6 +399,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image 4 bag1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot9.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot8.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POT10.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot11.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pots1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pots2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POT101.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
