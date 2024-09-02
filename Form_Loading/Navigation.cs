@@ -12,9 +12,11 @@ namespace Form_Loading
 {
     public partial class Navigation : UserControl
     {
-        public Navigation()
+        private Registerdb db;
+        public Navigation(Registerdb dbInstance)
         {
             InitializeComponent();
+            db = new Registerdb();
         }
 
         private void buttonViewProducts_Click(object sender, EventArgs e)
@@ -46,7 +48,7 @@ namespace Form_Loading
             currentForm.Close();
 
             // Show the main form (FormMain)
-            FormMain mainForm = new FormMain(); 
+            FormMain mainForm = new FormMain(db); 
             mainForm.Show();
 
             
@@ -62,7 +64,7 @@ namespace Form_Loading
             currentForm.Close();
             
 
-            FormTwo formTwo = new FormTwo(currentForm);
+            FormTwo formTwo = new FormTwo(currentForm, db);
             formTwo.Show();
         }
 

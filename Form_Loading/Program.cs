@@ -13,7 +13,12 @@ namespace Form_Loading {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+
+            // Create the Registerdb instance
+            Registerdb db = new Registerdb();
+
+            // Pass the Registerdb instance to FormMain
+            Application.Run(new FormMain(db));
         }
     }
 }
