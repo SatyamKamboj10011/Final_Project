@@ -19,11 +19,14 @@ namespace Form_Loading {
     public partial class FormTwo : Form {        
         Form FormParent;
         Form FormThree;
+        private int currentRecord;
+
+        private Registerdb db;
         
         //
         // Constructor FormTwo
-        // ===================
-        public FormTwo(Form FormParent) {
+        // ===================  
+        public FormTwo(Form FormParent,Registerdb dbInstance) { 
             InitializeComponent();
 
             // The parent of this form is FormMain. A reference
@@ -32,7 +35,9 @@ namespace Form_Loading {
             this.FormParent = FormParent;
 
             // Form Two can also display Form Three ...
-            FormThree = new FormThree(this); 
+            FormThree = new FormThree(this);
+
+           this.db = dbInstance;
         }
 
         //
@@ -45,26 +50,45 @@ namespace Form_Loading {
         // buttonGoBack_Click()
         // ====================
         private void buttonGoBack_Click(object sender, EventArgs e) {
-            // Hide FormTwo now we have finished with it.
-          this.Hide();
 
-            // Go back to the parent of this form. It is FormMain.
+            // Hide FormTwo and go back to the parent form
+            this.Hide();
             FormParent.Show();
-           
         }
 
         //
         // buttonLoadFormThree_Click()
         // ===========================
-       private void buttonLoadFormThree_Click(object sender, EventArgs e) {
+        private void buttonLoadFormThree_Click(object sender, EventArgs e)
+        {
             // Hide FormTwo now we have finished with it.
-          //this.Hide();
+            //this.Hide();
 
             //Load Form Three.
-           // FormThree.Show();
+            // FormThree.Show();
+
+            // Add the new user to the dbDemo
+
+           
+                // Validate input (ensure fields are not empty)
+                if (!string.IsNullOrEmpty(textBox1.Text) && int.TryParse(textBox2.Text, out int password))
+                {
+                    // Add the new user to the Registerdb
+                    db.AddRecord(textBox1.Text, password);
+                    MessageBox.Show("Signed up successfully!");
+
+                    // Clear text boxes after successful sign-up
+                    textBox1.Clear();
+                    textBox2.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a valid username and password.");
+                }
+            
         }
 
-        private void FormTwo_Load_1(object sender, EventArgs e) {
+            private void FormTwo_Load_1(object sender, EventArgs e) {
 
         }
 

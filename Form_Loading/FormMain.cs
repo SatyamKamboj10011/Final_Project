@@ -26,17 +26,15 @@ using System.Windows.Forms;
 
 namespace Form_Loading {
     public partial class FormMain : Form {
-        // FormOne is another form we have already created.
-        // This is an object of type Form that will allows us
-        // to control FormOne when we want to after we create
-        // it in this forms constructor.
        
-        private string username = "satyam";
-        private int password = 1234;
+       
+     
+
+        private Registerdb db;
 
         Form formOne;
         Form FormThree;
-        // FormTwo can be accessed from FormMain
+      
         Form FormTwo;
 
         Form formFive;
@@ -51,17 +49,19 @@ namespace Form_Loading {
         //
         // Constructor FormMain
         // ====================
-        public FormMain() {
+        public FormMain(Registerdb dbInstance) { 
             InitializeComponent();
+            db = dbInstance;
 
             // This creates FormOne and FormTwo. The this command
             // tells each form who its parent is.
             //totalDistance = 1024;
             formOne = new FormOne(this);
-            
-            FormTwo = new FormTwo(this); 
+
+            FormTwo = new FormTwo(this, dbInstance);
             FormThree = new FormThree(this);
-            
+
+
             // FormFive is just like the other forms,
             // but it is not in this project. It is
             // in a separate project created by another
@@ -89,18 +89,24 @@ namespace Form_Loading {
             //this.Visible = false;
 
             // Now tell FormOne to show itself
-                textBox2.Text = password.ToString();
-            if (textBox1.Text == username)
+
+            // Check if the username and password match any record
+            // Check if the username and password match any record
+            if (int.TryParse(textBox2.Text, out int password))
             {
-                formOne.ShowDialog();
-            }
-            else if (textBox1.Text=="")
-            {
-                MessageBox.Show("PLEASE ENTER A USERNAME");
+                if (db.ValidateUser(textBox1.Text, password))
+                {
+                    MessageBox.Show("Login successful!");
+                    formOne.ShowDialog(); // Show the next form if login is successful
+                }
+                else
+                {
+                    MessageBox.Show("Incorrect username or password.");
+                }
             }
             else
             {
-                MessageBox.Show("SORRY INCORRECT USERNAME");
+                MessageBox.Show("Please enter a valid password.");
             }
         }
 
@@ -131,10 +137,6 @@ namespace Form_Loading {
 
         private void label4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = username;
-            textBox2.Text=password.ToString();
-            this.Hide();
-            formOne.ShowDialog();
 
         }
 

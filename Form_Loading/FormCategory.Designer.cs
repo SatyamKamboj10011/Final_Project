@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navigation1 = new Form_Loading.Navigation();
+            this.navigation1 = new Form_Loading.Navigation(new Registerdb());
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();

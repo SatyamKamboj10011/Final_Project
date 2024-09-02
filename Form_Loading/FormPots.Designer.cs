@@ -83,7 +83,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.navigation1 = new Form_Loading.Navigation();
+            this.navigation1 = new Form_Loading.Navigation(new Registerdb());
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel11.SuspendLayout();
