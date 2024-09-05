@@ -75,7 +75,15 @@ namespace Form_Loading
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // Get the current form that contains this navigation control
+            Form currentForm = FindForm();
 
+            // Close the current form
+            currentForm.Close();
+
+            // Create a new instance of FormCart and show it
+            FormCart formCart = new FormCart();
+            formCart.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
