@@ -75,7 +75,7 @@
             this.label2.Size = new System.Drawing.Size(108, 22);
             this.label2.TabIndex = 5;
             this.label2.Text = "Username 👤";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+
             // 
             // label4
             // 
@@ -88,7 +88,7 @@
             this.label4.Size = new System.Drawing.Size(42, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "Test";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // textBox2
             // 

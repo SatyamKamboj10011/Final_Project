@@ -26,7 +26,7 @@ namespace Form_Loading
 
 
             // Close the current form
-            currentForm.Close();
+            currentForm.Hide();
 
             // Create a new instance of FormThree and pass the current form as the parent
             FormThree formThree = new FormThree(currentForm);
@@ -35,7 +35,7 @@ namespace Form_Loading
 
             // Show FormThree and bring it to the front
 
-            // formThree.BringToFront();
+           //  formThree.BringToFront();
         }
 
         private void buttonLoginPage_Click(object sender, EventArgs e)

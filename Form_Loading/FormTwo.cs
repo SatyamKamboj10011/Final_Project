@@ -17,15 +17,16 @@ using System.Windows.Forms;
 
 namespace Form_Loading {
     public partial class FormTwo : Form {        
-        Form FormParent;
-        Form FormThree;
-        private int currentRecord;
+
+      Form FormParent; 
+      Form FormThree;
+      private int currentRecord;
 
         private Registerdb db;
         
-        //
+        //----------------------
         // Constructor FormTwo
-        // ===================  
+        //-----------------------
         public FormTwo(Form FormParent,Registerdb dbInstance) { 
             InitializeComponent();
 
@@ -33,11 +34,11 @@ namespace Form_Loading {
             // to it was passed in via this Constructor. Save it
             // so we know where to go back to.
             this.FormParent = FormParent;
-
+            this.db = dbInstance;
             // Form Two can also display Form Three ...
             FormThree = new FormThree(this);
 
-           this.db = dbInstance;
+          
         }
 
         //
@@ -52,7 +53,7 @@ namespace Form_Loading {
         private void buttonGoBack_Click(object sender, EventArgs e) {
 
             // Hide FormTwo and go back to the parent form
-            this.Hide();
+            Hide();
             FormParent.Show();
         }
 
@@ -80,7 +81,8 @@ namespace Form_Loading {
                     // Clear text boxes after successful sign-up
                     textBox1.Clear();
                     textBox2.Clear();
-                }
+
+            }
                 else
                 {
                     MessageBox.Show("Please enter a valid username and password.");
@@ -88,33 +90,5 @@ namespace Form_Loading {
             
         }
 
-            private void FormTwo_Load_1(object sender, EventArgs e) {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
