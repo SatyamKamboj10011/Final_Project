@@ -34,30 +34,27 @@ namespace Form_Loading {
 
         Form formOne;
         Form FormThree;
-      
         Form FormTwo;
-
         Form formFive;
 
+        //--------------------------------------------------
         // FormFive is within a separate project so we
         // need an object reference to it. This is created
         // as an object of type Form. Later on in the
         // constructor, the link to the real FormFive
         // will be created
+        //-------------------------------------------------
         Form FormFive;
 
-        //
+        //----------------------
         // Constructor FormMain
-        // ====================
+        // --------------------
         public FormMain(Registerdb dbInstance) { 
             InitializeComponent();
             db = dbInstance;
 
-            // This creates FormOne and FormTwo. The this command
-            // tells each form who its parent is.
-            //totalDistance = 1024;
+            //Initializing Forms
             formOne = new FormOne(this);
-
             FormTwo = new FormTwo(this, dbInstance);
             FormThree = new FormThree(this);
 
@@ -74,24 +71,19 @@ namespace Form_Loading {
             FormFive = new FormFive.FormFive();            
         }
 
-        //
+        //-----------------
         // FormMain_Load()
-        // ===============
+        //-----------------
         private void FormMain_Load(object sender, EventArgs e) {
         }
 
-        //
+        //--------------------------
         // buttonLoadFormOne_Click()
-        // =========================
+        //--------------------------
         private void buttonLoadFormOne_Click(object sender, EventArgs e) {
-            // FormMain is the current visible form. It can be referenced with
-            // the this keyword. Make FormMain invisible
-            //this.Visible = false;
-
-            // Now tell FormOne to show itself
-
+        //----------------------------------------------------------------
             // Check if the username and password match any record
-            // Check if the username and password match any record
+            //------------------------------------------------------------
             if (int.TryParse(textBox2.Text, out int password))
             {
                 if (db.ValidateUser(textBox1.Text, password))
@@ -110,14 +102,17 @@ namespace Form_Loading {
             }
         }
 
-        //
+        // ---------------------------
         // buttonLoadFormTwo_Click()
-        // =========================
+        // ---------------------------
         private void buttoLoadFormTwo_Click(object sender, EventArgs e) {
+            //----------------------------------
             // Make FormMain invisible
-           this.Hide();
-
             // Now tell FormTwo to show itself.
+            //-----------------------------------
+            Hide();
+
+            
             FormTwo.Show();
         }
                 
@@ -132,27 +127,6 @@ namespace Form_Loading {
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
