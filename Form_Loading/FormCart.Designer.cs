@@ -36,8 +36,16 @@
             this.txtOrderAddress = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.lblltemsOrdered = new System.Windows.Forms.Label();
+            this.btnNewOrder = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.lstProducts = new System.Windows.Forms.ListBox();
+            this.lblTotalCost = new System.Windows.Forms.Label();
+            this.txtMailingLabel = new System.Windows.Forms.TextBox();
             this.tabOrderForm.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabOrderForm
@@ -50,9 +58,13 @@
             this.tabOrderForm.SelectedIndex = 0;
             this.tabOrderForm.Size = new System.Drawing.Size(790, 571);
             this.tabOrderForm.TabIndex = 0;
+            this.tabOrderForm.SelectedIndexChanged += new System.EventHandler(this.tabShoppingCart_SelectedIndexChanged);
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnExit);
+            this.tabPage1.Controls.Add(this.btnNewOrder);
+            this.tabPage1.Controls.Add(this.lblltemsOrdered);
             this.tabPage1.Controls.Add(this.btnAddToOrder);
             this.tabPage1.Controls.Add(this.dudProducts);
             this.tabPage1.Controls.Add(this.label1);
@@ -68,16 +80,17 @@
             // 
             // btnAddToOrder
             // 
-            this.btnAddToOrder.Location = new System.Drawing.Point(353, 462);
+            this.btnAddToOrder.Location = new System.Drawing.Point(122, 406);
             this.btnAddToOrder.Name = "btnAddToOrder";
-            this.btnAddToOrder.Size = new System.Drawing.Size(86, 38);
+            this.btnAddToOrder.Size = new System.Drawing.Size(123, 38);
             this.btnAddToOrder.TabIndex = 3;
-            this.btnAddToOrder.Text = "button1";
+            this.btnAddToOrder.Text = "Add to Order";
             this.btnAddToOrder.UseVisualStyleBackColor = true;
+            this.btnAddToOrder.Click += new System.EventHandler(this.btnAddToOrder_Click);
             // 
             // dudProducts
             // 
-            this.dudProducts.Location = new System.Drawing.Point(314, 419);
+            this.dudProducts.Location = new System.Drawing.Point(297, 413);
             this.dudProducts.Name = "dudProducts";
             this.dudProducts.Size = new System.Drawing.Size(162, 26);
             this.dudProducts.TabIndex = 2;
@@ -96,12 +109,14 @@
             this.txtOrderAddress.Location = new System.Drawing.Point(49, 78);
             this.txtOrderAddress.Multiline = true;
             this.txtOrderAddress.Name = "txtOrderAddress";
-            this.txtOrderAddress.Size = new System.Drawing.Size(676, 270);
+            this.txtOrderAddress.Size = new System.Drawing.Size(676, 322);
             this.txtOrderAddress.TabIndex = 0;
             this.txtOrderAddress.TextChanged += new System.EventHandler(this.txtOrderAddress_TextChanged);
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.lblTotalCost);
+            this.tabPage2.Controls.Add(this.lstProducts);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -112,6 +127,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.txtMailingLabel);
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -119,6 +135,64 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Mailing Label";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // lblltemsOrdered
+            // 
+            this.lblltemsOrdered.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblltemsOrdered.Location = new System.Drawing.Point(297, 487);
+            this.lblltemsOrdered.Name = "lblltemsOrdered";
+            this.lblltemsOrdered.Size = new System.Drawing.Size(186, 27);
+            this.lblltemsOrdered.TabIndex = 4;
+            this.lblltemsOrdered.Text = "Items Ordered: 0";
+            // 
+            // btnNewOrder
+            // 
+            this.btnNewOrder.Location = new System.Drawing.Point(122, 480);
+            this.btnNewOrder.Name = "btnNewOrder";
+            this.btnNewOrder.Size = new System.Drawing.Size(123, 34);
+            this.btnNewOrder.TabIndex = 5;
+            this.btnNewOrder.Text = "New Order";
+            this.btnNewOrder.UseVisualStyleBackColor = true;
+            this.btnNewOrder.Click += new System.EventHandler(this.btnNewOrder_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(599, 482);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 32);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // lstProducts
+            // 
+            this.lstProducts.FormattingEnabled = true;
+            this.lstProducts.ItemHeight = 20;
+            this.lstProducts.Location = new System.Drawing.Point(126, 46);
+            this.lstProducts.Name = "lstProducts";
+            this.lstProducts.Size = new System.Drawing.Size(503, 264);
+            this.lstProducts.TabIndex = 0;
+            // 
+            // lblTotalCost
+            // 
+            this.lblTotalCost.BackColor = System.Drawing.Color.Yellow;
+            this.lblTotalCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblTotalCost.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalCost.Location = new System.Drawing.Point(291, 365);
+            this.lblTotalCost.Name = "lblTotalCost";
+            this.lblTotalCost.Size = new System.Drawing.Size(132, 34);
+            this.lblTotalCost.TabIndex = 1;
+            this.lblTotalCost.Text = "Total Cost";
+            // 
+            // txtMailingLabel
+            // 
+            this.txtMailingLabel.Enabled = false;
+            this.txtMailingLabel.Location = new System.Drawing.Point(51, 35);
+            this.txtMailingLabel.Multiline = true;
+            this.txtMailingLabel.Name = "txtMailingLabel";
+            this.txtMailingLabel.Size = new System.Drawing.Size(667, 343);
+            this.txtMailingLabel.TabIndex = 0;
             // 
             // FormCart
             // 
@@ -133,6 +207,9 @@
             this.tabOrderForm.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -147,5 +224,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DomainUpDown dudProducts;
         private System.Windows.Forms.Button btnAddToOrder;
+        private System.Windows.Forms.Label lblltemsOrdered;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnNewOrder;
+        private System.Windows.Forms.Label lblTotalCost;
+        private System.Windows.Forms.ListBox lstProducts;
+        private System.Windows.Forms.TextBox txtMailingLabel;
     }
 }
