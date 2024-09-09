@@ -31,6 +31,9 @@ namespace Form_Loading
 
             usernames.Add("Pratham");
             passwords.Add(5678);
+
+            usernames.Add("Komal");
+            passwords.Add(2020);
         }
 
         // Read

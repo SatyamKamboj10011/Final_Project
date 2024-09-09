@@ -82,7 +82,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(255, 34);
             this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+           
             // 
             // textBox2
             // 
@@ -92,7 +92,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(255, 34);
             this.textBox2.TabIndex = 8;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+ 
             // 
             // label5
             // 
@@ -143,7 +143,7 @@
             this.label7.Size = new System.Drawing.Size(113, 23);
             this.label7.TabIndex = 12;
             this.label7.Text = "Password 🔏:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+      
             // 
             // FormTwo
             // 
@@ -165,7 +165,7 @@
             this.Name = "FormTwo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "This is Form Two";
-            this.Load += new System.EventHandler(this.FormTwo_Load_1);
+       
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

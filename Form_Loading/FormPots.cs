@@ -21,5 +21,10 @@ namespace Form_Loading
         {
 
         }
+
+        private void navigation1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

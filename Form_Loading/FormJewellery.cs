@@ -21,5 +21,10 @@ namespace Form_Loading
         {
 
         }
+
+        private void FormJewellery_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

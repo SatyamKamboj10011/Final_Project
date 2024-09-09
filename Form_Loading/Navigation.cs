@@ -13,6 +13,11 @@ namespace Form_Loading
     public partial class Navigation : UserControl
     {
         private Registerdb db;
+
+        public Navigation()
+        {
+            InitializeComponent();
+        }
         public Navigation(Registerdb dbInstance)
         {
             InitializeComponent();
@@ -26,16 +31,17 @@ namespace Form_Loading
 
 
             // Close the current form
-            currentForm.Close();
+           
 
             // Create a new instance of FormThree and pass the current form as the parent
+          
             FormThree formThree = new FormThree(currentForm);
             formThree.Show();
-
+           //formThree.BringToFront();
 
             // Show FormThree and bring it to the front
 
-            // formThree.BringToFront();
+           //  formThree.BringToFront();
         }
 
         private void buttonLoginPage_Click(object sender, EventArgs e)
@@ -45,13 +51,14 @@ namespace Form_Loading
             Form currentForm = FindForm();
 
             // Close the current form (FormOne)
-            currentForm.Close();
+            currentForm.Hide();
 
             // Show the main form (FormMain)
             FormMain mainForm = new FormMain(db); 
             mainForm.Show();
+            mainForm.BringToFront();
 
-            
+
         }
 
       
@@ -61,11 +68,12 @@ namespace Form_Loading
             
             Form currentForm = FindForm();
 
-            currentForm.Close();
+            currentForm.Hide();
             
 
             FormTwo formTwo = new FormTwo(currentForm, db);
             formTwo.Show();
+            formTwo.BringToFront();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -79,22 +87,25 @@ namespace Form_Loading
             Form currentForm = FindForm();
 
             // Close the current form
-            currentForm.Close();
+            currentForm.Hide();
 
             // Create a new instance of FormCart and show it
             FormCart formCart = new FormCart();
             formCart.Show();
+            formCart.BringToFront();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             Form currentForm = FindForm();
 
-            currentForm.Close();
+            currentForm.Hide();
 
 
-            FormCategory formCategory = new FormCategory(currentForm);
+            FormCategory formCategory = new FormCategory();
             formCategory.Show();
+            formCategory.BringToFront();
+
         }
     }
 }
