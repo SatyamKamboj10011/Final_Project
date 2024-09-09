@@ -12,14 +12,13 @@ namespace Form_Loading
 {
     public partial class FormCategory : Form
     {
-        Form FormParent;
+        //Form FormParent;
 
-        public FormThree FormThree { get; private set; }
+       // public FormThree FormThree { get; private set; }
 
-        public FormCategory(Form FormParent)
+        public FormCategory()
         {
             InitializeComponent();
-            this.FormParent = FormParent;
         }
 
         private void FormCategory_Load(object sender, EventArgs e)
