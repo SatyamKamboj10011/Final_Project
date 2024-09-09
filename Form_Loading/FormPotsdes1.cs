@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Form_Loading
 {
-    public partial class FormDecoration : Form
+    public partial class FormPotsdes1 : Form
     {
-        public FormDecoration()
+        public FormPotsdes1()
         {
             InitializeComponent();
-        }
-
-        private void FormDecoration_Load(object sender, EventArgs e)
-        {
-
-
-
         }
     }
 }

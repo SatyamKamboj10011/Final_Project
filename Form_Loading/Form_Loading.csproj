@@ -79,6 +79,12 @@
     <Compile Include="FormdesPic1.Designer.cs">
       <DependentUpon>FormdesPic1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormJewdes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJewdes1.Designer.cs">
+      <DependentUpon>FormJewdes1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormJewellery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,12 @@
     </Compile>
     <Compile Include="FormPots.Designer.cs">
       <DependentUpon>FormPots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPotsdes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPotsdes1.Designer.cs">
+      <DependentUpon>FormPotsdes1.cs</DependentUpon>
     </Compile>
     <Compile Include="FormThree.cs">
       <SubType>Form</SubType>
@@ -139,6 +151,12 @@
     <Compile Include="Navigation.Designer.cs">
       <DependentUpon>Navigation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -165,6 +183,9 @@
     <EmbeddedResource Include="FormdesPic1.resx">
       <DependentUpon>FormdesPic1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormJewdes1.resx">
+      <DependentUpon>FormJewdes1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormJewellery.resx">
       <DependentUpon>FormJewellery.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPots.resx">
       <DependentUpon>FormPots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPotsdes1.resx">
+      <DependentUpon>FormPotsdes1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormThree.resx">
       <DependentUpon>FormThree.cs</DependentUpon>
@@ -194,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Navigation.resx">
       <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -446,6 +473,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\POT101.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ccc1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrangement-macrame-handmade-object_23-2149064431.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rustic-chic-bag-with-wooden-accents-everyday-use-generative-ai_804788-205636.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrangement-macrame-handmade-object_23-21490644311.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag-with-flowers-tag-it_1103290-64151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pot31.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

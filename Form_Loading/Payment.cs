@@ -10,24 +10,23 @@ using System.Windows.Forms;
 
 namespace Form_Loading
 {
-    public partial class imageThreedes : Form
+    public partial class Payment : Form
     {
-        public imageThreedes()
+        private FormCart formCart;
+
+        public Payment()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        public Payment(FormCart formCart)
         {
-
+            this.formCart = formCart;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
-            FormThree formThree = new FormThree(this);
-            formThree.Show();
-            this.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -35,10 +34,14 @@ namespace Form_Loading
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Payment paymentForm = new Payment();
-            paymentForm.Show();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

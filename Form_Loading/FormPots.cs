@@ -21,5 +21,17 @@ namespace Form_Loading
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            FormPotsdes1 FormPotsdes1Form = new FormPotsdes1();
+            FormPotsdes1Form.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FormPotsdes1 FormPotsdes1Form = new FormPotsdes1();
+            FormPotsdes1Form.Show();
+        }
     }
 }

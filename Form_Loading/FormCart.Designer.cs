@@ -30,18 +30,19 @@
         {
             this.tabOrderForm = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnNewOrder = new System.Windows.Forms.Button();
+            this.lblltemsOrdered = new System.Windows.Forms.Label();
             this.btnAddToOrder = new System.Windows.Forms.Button();
             this.dudProducts = new System.Windows.Forms.DomainUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.txtOrderAddress = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.lblltemsOrdered = new System.Windows.Forms.Label();
-            this.btnNewOrder = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.lstProducts = new System.Windows.Forms.ListBox();
             this.lblTotalCost = new System.Windows.Forms.Label();
+            this.lstProducts = new System.Windows.Forms.ListBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.txtMailingLabel = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabOrderForm.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -77,6 +78,35 @@
             this.tabPage1.Text = "Order Form";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(599, 482);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 32);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnNewOrder
+            // 
+            this.btnNewOrder.Location = new System.Drawing.Point(122, 480);
+            this.btnNewOrder.Name = "btnNewOrder";
+            this.btnNewOrder.Size = new System.Drawing.Size(123, 34);
+            this.btnNewOrder.TabIndex = 5;
+            this.btnNewOrder.Text = "New Order";
+            this.btnNewOrder.UseVisualStyleBackColor = true;
+            this.btnNewOrder.Click += new System.EventHandler(this.btnNewOrder_Click);
+            // 
+            // lblltemsOrdered
+            // 
+            this.lblltemsOrdered.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblltemsOrdered.Location = new System.Drawing.Point(297, 487);
+            this.lblltemsOrdered.Name = "lblltemsOrdered";
+            this.lblltemsOrdered.Size = new System.Drawing.Size(186, 27);
+            this.lblltemsOrdered.TabIndex = 4;
+            this.lblltemsOrdered.Text = "Items Ordered: 0";
             // 
             // btnAddToOrder
             // 
@@ -125,55 +155,6 @@
             this.tabPage2.Text = "Shopping Cart";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.txtMailingLabel);
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(782, 538);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Mailing Label";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // lblltemsOrdered
-            // 
-            this.lblltemsOrdered.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblltemsOrdered.Location = new System.Drawing.Point(297, 487);
-            this.lblltemsOrdered.Name = "lblltemsOrdered";
-            this.lblltemsOrdered.Size = new System.Drawing.Size(186, 27);
-            this.lblltemsOrdered.TabIndex = 4;
-            this.lblltemsOrdered.Text = "Items Ordered: 0";
-            // 
-            // btnNewOrder
-            // 
-            this.btnNewOrder.Location = new System.Drawing.Point(122, 480);
-            this.btnNewOrder.Name = "btnNewOrder";
-            this.btnNewOrder.Size = new System.Drawing.Size(123, 34);
-            this.btnNewOrder.TabIndex = 5;
-            this.btnNewOrder.Text = "New Order";
-            this.btnNewOrder.UseVisualStyleBackColor = true;
-            this.btnNewOrder.Click += new System.EventHandler(this.btnNewOrder_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Location = new System.Drawing.Point(599, 482);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 32);
-            this.btnExit.TabIndex = 6;
-            this.btnExit.Text = "Exit";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // lstProducts
-            // 
-            this.lstProducts.FormattingEnabled = true;
-            this.lstProducts.ItemHeight = 20;
-            this.lstProducts.Location = new System.Drawing.Point(126, 46);
-            this.lstProducts.Name = "lstProducts";
-            this.lstProducts.Size = new System.Drawing.Size(503, 264);
-            this.lstProducts.TabIndex = 0;
-            // 
             // lblTotalCost
             // 
             this.lblTotalCost.BackColor = System.Drawing.Color.Yellow;
@@ -185,6 +166,26 @@
             this.lblTotalCost.TabIndex = 1;
             this.lblTotalCost.Text = "Total Cost";
             // 
+            // lstProducts
+            // 
+            this.lstProducts.FormattingEnabled = true;
+            this.lstProducts.ItemHeight = 20;
+            this.lstProducts.Location = new System.Drawing.Point(126, 46);
+            this.lstProducts.Name = "lstProducts";
+            this.lstProducts.Size = new System.Drawing.Size(503, 264);
+            this.lstProducts.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.txtMailingLabel);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(782, 538);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Mailing Label";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // txtMailingLabel
             // 
             this.txtMailingLabel.Enabled = false;
@@ -194,12 +195,23 @@
             this.txtMailingLabel.Size = new System.Drawing.Size(667, 343);
             this.txtMailingLabel.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(861, 629);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(187, 38);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Procced to Payment";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Form_Loading.Properties.Resources.paper_1074131_19201;
             this.ClientSize = new System.Drawing.Size(1260, 731);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabOrderForm);
             this.Name = "FormCart";
             this.Text = "FormCart";
@@ -230,5 +242,6 @@
         private System.Windows.Forms.Label lblTotalCost;
         private System.Windows.Forms.ListBox lstProducts;
         private System.Windows.Forms.TextBox txtMailingLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
