@@ -144,6 +144,16 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bc {
+            get {
+                object obj = ResourceManager.GetObject("bc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg__1_ {
             get {
                 object obj = ResourceManager.GetObject("bg (1)", resourceCulture);
@@ -187,6 +197,16 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap CB5C9DC7_6B65_49F9_8639_7162DC565F61 {
             get {
                 object obj = ResourceManager.GetObject("CB5C9DC7-6B65-49F9-8639-7162DC565F61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cc1 {
+            get {
+                object obj = ResourceManager.GetObject("cc1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -267,6 +287,56 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector {
             get {
                 object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector1 {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector2 {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector3 {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector4 {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector5 {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -684,6 +754,16 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paper_1074131_19203 {
+            get {
+                object obj = ResourceManager.GetObject("paper-1074131_19203", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap paper_3155438_640 {
             get {
                 object obj = ResourceManager.GetObject("paper-3155438_640", resourceCulture);
@@ -758,6 +838,16 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap pot3 {
             get {
                 object obj = ResourceManager.GetObject("pot3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pot31 {
+            get {
+                object obj = ResourceManager.GetObject("pot31", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

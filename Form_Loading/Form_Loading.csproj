@@ -73,6 +73,12 @@
     <Compile Include="FormdesPic1.Designer.cs">
       <DependentUpon>FormdesPic1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormJewDesc1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJewDesc1.Designer.cs">
+      <DependentUpon>FormJewDesc1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormJewellery.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="FormPots.Designer.cs">
       <DependentUpon>FormPots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPotsDesc1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPotsDesc1.Designer.cs">
+      <DependentUpon>FormPotsDesc1.cs</DependentUpon>
     </Compile>
     <Compile Include="FormThree.cs">
       <SubType>Form</SubType>
@@ -133,6 +145,12 @@
     <Compile Include="Navigation.Designer.cs">
       <DependentUpon>Navigation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Payment1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment1.Designer.cs">
+      <DependentUpon>Payment1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -156,6 +174,9 @@
     <EmbeddedResource Include="FormdesPic1.resx">
       <DependentUpon>FormdesPic1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormJewDesc1.resx">
+      <DependentUpon>FormJewDesc1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormJewellery.resx">
       <DependentUpon>FormJewellery.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +188,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPots.resx">
       <DependentUpon>FormPots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPotsDesc1.resx">
+      <DependentUpon>FormPotsDesc1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormThree.resx">
       <DependentUpon>FormThree.cs</DependentUpon>
@@ -185,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Navigation.resx">
       <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment1.resx">
+      <DependentUpon>Payment1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -449,6 +476,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HD-wallpaper-neon-green-leaves-neon-leaves-green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-1074131_1920.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

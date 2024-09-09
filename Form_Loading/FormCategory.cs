@@ -44,8 +44,10 @@ namespace Form_Loading
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            
             FormJewellery FormJewellery = new FormJewellery();
             FormJewellery.Show();
+         
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)

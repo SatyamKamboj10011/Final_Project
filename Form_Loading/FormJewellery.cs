@@ -26,5 +26,18 @@ namespace Form_Loading
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+         
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            FormJewDesc1 FormJewdes1Form = new FormJewDesc1();
+            FormJewdes1Form.Show();
+        }
     }
 }

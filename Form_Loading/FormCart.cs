@@ -119,5 +119,10 @@ namespace Form_Loading
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Payment1 paymentForm = new Payment1();
+            paymentForm.Show();
+        }
     }
 }

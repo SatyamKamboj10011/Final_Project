@@ -154,8 +154,8 @@
   <data name="R (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (3).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bc.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2024-08-22 140941" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-08-22 140941.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -165,6 +165,9 @@
   </data>
   <data name="mpK7UcbRScekCwOUGv6wAQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mpK7UcbRScekCwOUGv6wAQ.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-leaves-abstract-background-free-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-leaves-abstract-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="paper-1074131_19202" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paper-1074131_19202.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,14 +208,17 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maxresdefault (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\img1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="R (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\R (3)1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-leaves-abstract-background-free-vector4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-leaves-abstract-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pot8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pot8.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -234,6 +240,9 @@
   </data>
   <data name="pexels-pixabay-158780" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-pixabay-158780.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pot5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pot5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a-visually-appealing-and-meaningful-logo-for-handc-oaqGsI5nTViMB4uBa5oiKw-Bd6HOpCKT8eKPaxM6sPAVA-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,6 +280,9 @@
   <data name="Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hot-pink-Statement-artisan-handmade-necklace-earrings-set-40756_1_full.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HD-wallpaper-neon-green-leaves-neon-leaves-green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HD-wallpaper-neon-green-leaves-neon-leaves-green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="last bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\last bag.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -282,6 +294,9 @@
   </data>
   <data name="paper-1074131_19201" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\paper-1074131_19201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paper-1074131_19203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\paper-1074131_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image3 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image3 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,9 +319,6 @@
   <data name="image bag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image bag1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shutterstock_249878665" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shutterstock_249878665.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Screenshot 2024-08-22 150941" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-08-22 150941.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -316,8 +328,14 @@
   <data name="OIP (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (5).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="green-leaves-abstract-background-free-vector3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-leaves-abstract-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cc1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bad last4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bad last4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,8 +355,14 @@
   <data name="image2 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image2 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maxresdefault (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maxresdefault (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pot31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pot3.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shutterstock_249878665" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutterstock_249878665.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (2).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,14 +376,17 @@
   <data name="image 4 bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image 4 bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pot5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pot5.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="img1111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img1111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="downloadedImage (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downloadedImage (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="shop-4716454_1920" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shop-4716454_1920.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-leaves-abstract-background-free-vector2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-leaves-abstract-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image2 bag1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image2 bag1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -379,7 +406,7 @@
   <data name="Aluren-Bag-Yarn-Peonies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aluren-Bag-Yarn-Peonies.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HD-wallpaper-neon-green-leaves-neon-leaves-green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HD-wallpaper-neon-green-leaves-neon-leaves-green.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green-leaves-abstract-background-free-vector5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-leaves-abstract-background-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
