@@ -46,7 +46,7 @@
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.buttoLoadFormTwo);
             this.panel3.Controls.Add(this.buttonLoadFormOne);
-            this.panel3.Location = new System.Drawing.Point(272, 274);
+            this.panel3.Location = new System.Drawing.Point(278, 132);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(474, 229);
@@ -75,7 +75,6 @@
             this.label2.Size = new System.Drawing.Size(108, 22);
             this.label2.TabIndex = 5;
             this.label2.Text = "Username 👤";
-
             // 
             // label4
             // 
@@ -88,7 +87,6 @@
             this.label4.Size = new System.Drawing.Size(42, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "Test";
-            
             // 
             // textBox2
             // 
@@ -152,6 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::Form_Loading.Properties.Resources.IMG_20240824_WA0020_2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1069, 528);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);

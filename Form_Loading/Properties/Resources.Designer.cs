@@ -334,9 +334,29 @@ namespace Form_Loading.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap green_leaves_abstract_background_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("green-leaves-abstract-background-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Handicraft_1 {
             get {
                 object obj = ResourceManager.GetObject("Handicraft-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HD_wallpaper_neon_green_leaves_neon_leaves_green {
+            get {
+                object obj = ResourceManager.GetObject("HD-wallpaper-neon-green-leaves-neon-leaves-green", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -737,6 +757,26 @@ namespace Form_Loading.Properties {
         internal static System.Drawing.Bitmap paper_3155438_640 {
             get {
                 object obj = ResourceManager.GetObject("paper-3155438_640", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_158780 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-158780", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_66869 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-66869", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

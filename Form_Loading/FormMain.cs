@@ -1,26 +1,10 @@
-﻿//
-// FORM SWITCHING EXAMPLE
-// ======================
-// Demonstrates how to switch between different
-// forms connected in the same application.
+﻿//#####################################################################################
 //
-// FormMain is the main form. It has two children
-// and one grandchild:
+//  STUDIO  2 - HANDCRAFTS HEAVEN
 //
-//          FormMain--> FormOne    
-//                 '--> FormTwo --> FormThree
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
 //
-// Look at the code to understand why Form One
-// cannot show Form Two but it can go back to
-// FormMain.
-//
-// Look at the code to understand why FormTwo
-// can go back to FormMain or show FormThree.
-//
-// Revision History
-// ================
-// 21.05.2023 BRD Original version.
-//
+//######################################################################################
 using System;
 using System.Windows.Forms;
 
@@ -33,7 +17,6 @@ namespace Form_Loading {
         private Registerdb db;
 
         Form formOne;
-        Form FormThree;
         Form FormTwo;
         Form formFive;
 
@@ -56,7 +39,7 @@ namespace Form_Loading {
             //Initializing Forms
             formOne = new FormOne(this);
             FormTwo = new FormTwo(this, dbInstance);
-            FormThree = new FormThree(this);
+           // FormThree = new FormThree(this);
 
 
             // FormFive is just like the other forms,
@@ -88,7 +71,7 @@ namespace Form_Loading {
             {
                 if (db.ValidateUser(textBox1.Text, password))
                 {
-                    MessageBox.Show("Login successful!");
+                    MessageBox.Show("Login successful! ✅2");
                     formOne.ShowDialog(); // Show the next form if login is successful
                 }
                 else

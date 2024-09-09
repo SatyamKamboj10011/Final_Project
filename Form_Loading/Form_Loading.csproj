@@ -49,12 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormCart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -168,9 +162,6 @@
       <DependentUpon>imageOnedes.cs</DependentUpon>
     </Compile>
     <Compile Include="Spinner.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormCart.resx">
       <DependentUpon>FormCart.cs</DependentUpon>
     </EmbeddedResource>
@@ -475,31 +466,7 @@
     <None Include="Resources\POT101.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ccc1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cc.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bc.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cc1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrangement-macrame-handmade-object_23-2149064431.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\rustic-chic-bag-with-wooden-accents-everyday-use-generative-ai_804788-205636.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\arrangement-macrame-handmade-object_23-21490644311.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bag-with-flowers-tag-it_1103290-64151.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pot31.jpeg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
