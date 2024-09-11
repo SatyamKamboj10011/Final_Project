@@ -1,4 +1,12 @@
-﻿using System;
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +38,16 @@ namespace Form_Loading
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void navigation1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Payment Successfully Done");
         }
     }
 }

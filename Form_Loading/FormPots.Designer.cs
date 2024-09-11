@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPots));
-            this.label29 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -78,6 +77,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.navigation1 = new Form_Loading.Navigation();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -97,23 +97,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label29.Image = global::Form_Loading.Properties.Resources.images__4_;
-            this.label29.Location = new System.Drawing.Point(539, 24);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(227, 37);
-            this.label29.TabIndex = 38;
-            this.label29.Text = "HANDMADE POTS";
-            // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.label15);
             this.panel5.Controls.Add(this.label16);
@@ -181,8 +167,7 @@
             // 
             // panel11
             // 
-            this.panel11.BackColor = System.Drawing.Color.Transparent;
-            this.panel11.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel11.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel11.Controls.Add(this.label41);
             this.panel11.Controls.Add(this.label42);
@@ -250,8 +235,7 @@
             // 
             // panel9
             // 
-            this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.label23);
             this.panel9.Controls.Add(this.label24);
@@ -319,8 +303,7 @@
             // 
             // panel15
             // 
-            this.panel15.BackColor = System.Drawing.Color.Transparent;
-            this.panel15.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel15.Controls.Add(this.label49);
             this.panel15.Controls.Add(this.label50);
@@ -337,7 +320,7 @@
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Gabriola", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(5, 158);
+            this.label49.Location = new System.Drawing.Point(24, 165);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(75, 23);
             this.label49.TabIndex = 26;
@@ -388,8 +371,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.Transparent;
-            this.panel6.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label12);
@@ -457,8 +439,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label7);
@@ -526,8 +507,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.label19);
             this.panel4.Controls.Add(this.label20);
@@ -595,8 +575,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.BackgroundImage = global::Form_Loading.Properties.Resources.images__4_;
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label2);
@@ -666,25 +645,38 @@
             this.label4.TabIndex = 16;
             this.label4.Text = "$15";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label5.Font = new System.Drawing.Font("Cheddar Gothic Rough", 25.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label5.Location = new System.Drawing.Point(541, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(260, 55);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "HANDMADE POTS";
+            // 
             // navigation1
             // 
             this.navigation1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("navigation1.BackgroundImage")));
             this.navigation1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.navigation1.Location = new System.Drawing.Point(0, -1);
+            this.navigation1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.navigation1.Location = new System.Drawing.Point(2, -2);
             this.navigation1.Name = "navigation1";
-            this.navigation1.Size = new System.Drawing.Size(238, 575);
-            this.navigation1.TabIndex = 39;
+            this.navigation1.Size = new System.Drawing.Size(224, 571);
+            this.navigation1.TabIndex = 41;
             // 
             // FormPots
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Form_Loading.Properties.Resources.HD_wallpaper_neon_green_leaves_neon_leaves_green;
+            this.BackgroundImage = global::Form_Loading.Properties.Resources.green_leaves_abstract_background_free_vector3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1069, 528);
             this.Controls.Add(this.navigation1);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.label29);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel9);
@@ -725,8 +717,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
@@ -775,6 +765,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
         private Navigation navigation1;
     }
 }

@@ -71,7 +71,8 @@ namespace Form_Loading {
             {
                 if (db.ValidateUser(textBox1.Text, password))
                 {
-                    MessageBox.Show("Login successful! ✅2");
+                    MessageBox.Show("Login successful!");
+
                     formOne.ShowDialog(); // Show the next form if login is successful
                 }
                 else
@@ -110,6 +111,11 @@ namespace Form_Loading {
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

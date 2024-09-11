@@ -486,5 +486,29 @@
   <ItemGroup>
     <None Include="Resources\paper-1074131_1920.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloadedImage %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloadedImage %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd-man-user-illustration-icon-transparent-png-701751694974843ybexneueic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lockunlock.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6569164.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hd-man-user-illustration-icon-transparent-png-701751694974843ybexneueic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

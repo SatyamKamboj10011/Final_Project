@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThree));
             this.buttonGoBack = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -82,6 +82,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.navigation1 = new Form_Loading.Navigation();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -112,18 +113,6 @@
             this.buttonGoBack.Text = "🏠";
             this.buttonGoBack.UseVisualStyleBackColor = true;
             this.buttonGoBack.Click += new System.EventHandler(this.buttonGoBack_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(585, 7);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 36);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "HAND BAGS";
             // 
             // label5
             // 
@@ -694,19 +683,35 @@
             // 
             // navigation1
             // 
+            this.navigation1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("navigation1.BackgroundImage")));
+            this.navigation1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.navigation1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.navigation1.Location = new System.Drawing.Point(-2, -6);
             this.navigation1.Name = "navigation1";
             this.navigation1.Size = new System.Drawing.Size(223, 575);
             this.navigation1.TabIndex = 29;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label2.Font = new System.Drawing.Font("Cheddar Gothic Rough", 25.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkBlue;
+            this.label2.Location = new System.Drawing.Point(571, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(177, 55);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "HANDBAGS";
             // 
             // FormThree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Form_Loading.Properties.Resources.paper_1074131_19201;
+            this.BackgroundImage = global::Form_Loading.Properties.Resources.green_leaves_abstract_background_free_vector2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1069, 528);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.navigation1);
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.linkLabel1);
@@ -717,7 +722,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonGoBack);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.ForeColor = System.Drawing.Color.Black;
@@ -759,7 +763,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonGoBack;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
@@ -812,5 +815,6 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label32;
         private Navigation navigation1;
+        private System.Windows.Forms.Label label2;
     }
 }

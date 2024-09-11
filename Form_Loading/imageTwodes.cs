@@ -1,4 +1,15 @@
-﻿using System;
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
+
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,6 +68,11 @@ namespace Form_Loading
             FormThree formThree = new FormThree(this);
             formThree.Show();
             this.Hide();
+        }
+
+        private void navigation1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

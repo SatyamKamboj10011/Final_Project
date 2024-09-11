@@ -1,4 +1,12 @@
-﻿using System;
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +20,14 @@ namespace Form_Loading
 {
     public partial class FormCategory : Form
     {
-        //Form FormParent;
+        Form FormParent;
 
-       // public FormThree FormThree { get; private set; }
+       //public FormThree FormThree { get; private set; }
 
         public FormCategory()
         {
             InitializeComponent();
+            this.Hide();
         }
 
         private void FormCategory_Load(object sender, EventArgs e)
@@ -31,20 +40,18 @@ namespace Form_Loading
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
             FormPots formPots = new FormPots();
             formPots.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-            FormThree formThree = new FormThree();
-            formThree.Show();
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            
+
+            this.Hide();
+
             FormJewellery FormJewellery = new FormJewellery();
             FormJewellery.Show();
          
@@ -52,8 +59,18 @@ namespace Form_Loading
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+
+            this.Hide();
             FormDecoration  FormDecoration = new FormDecoration();
             FormDecoration.Show();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            FormThree formThree = new FormThree(this);
+            formThree.Show();
         }
     }
 }

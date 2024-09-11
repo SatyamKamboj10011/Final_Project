@@ -16,5 +16,10 @@ namespace Form_Loading
         {
             InitializeComponent();
         }
+
+        private void FormPotsDesc1_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

@@ -1,9 +1,10 @@
-﻿//
-// FORM TWO
-// ========
-// FormTwo has a child of its own called
-// FormThree. FormThree is a grandchild of
-// FormMain.
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
 
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,9 @@ namespace Form_Loading
 
             usernames.Add("Komal");
             passwords.Add(2020);
+
+            usernames.Add("Vikash");
+            passwords.Add(1111);
         }
 
         // Read
@@ -79,14 +83,6 @@ namespace Form_Loading
         }
 
 
-        //
-        // Get ID
-        // ======
-
-
-        //
-        // Get Set LastName
-        // =================
 
     }
 }

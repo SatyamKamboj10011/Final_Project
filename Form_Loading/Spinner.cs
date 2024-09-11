@@ -1,8 +1,10 @@
-﻿//
-// FORM ONE
-// ========
-// FormOne is a child of FormMain
+﻿//#####################################################################################
 //
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
 using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
@@ -64,9 +66,7 @@ namespace Form_Loading
 
 
         }
-        //------------------------------------------------------------
-        //Boolean used in Form1 to check the similarity of the images.
-        //-------------------------------------------------------------
+       
         
     
 }
