@@ -24,20 +24,18 @@ namespace Form_Loading
 
         private void FormJewellery_Load(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
-         
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
+            this.Hide();
             FormJewDesc1 FormJewdes1Form = new FormJewDesc1();
             FormJewdes1Form.Show();
+
+
         }
+
+
     }
 }

@@ -75,6 +75,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Submit Payment ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
@@ -82,7 +83,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(181, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 25);
+            this.label5.Size = new System.Drawing.Size(147, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Payment Details";
             // 
@@ -123,7 +124,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(114, 258);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 20);
+            this.label4.Size = new System.Drawing.Size(129, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Security Code(CVV):";
             // 
@@ -132,7 +133,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(114, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 20);
+            this.label3.Size = new System.Drawing.Size(97, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Name on Card:";
             // 
@@ -141,7 +142,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(114, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 20);
+            this.label2.Size = new System.Drawing.Size(82, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Expiry Date :";
             // 
@@ -151,7 +152,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Location = new System.Drawing.Point(114, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 20);
+            this.label1.Size = new System.Drawing.Size(109, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Account Number:";
             // 
@@ -171,19 +172,20 @@
             // 
             this.navigation1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("navigation1.BackgroundImage")));
             this.navigation1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.navigation1.Location = new System.Drawing.Point(-33, -29);
-            this.navigation1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.navigation1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.navigation1.Location = new System.Drawing.Point(2, 2);
             this.navigation1.Name = "navigation1";
-            this.navigation1.Size = new System.Drawing.Size(294, 549);
+            this.navigation1.Size = new System.Drawing.Size(224, 571);
             this.navigation1.TabIndex = 4;
+            this.navigation1.Load += new System.EventHandler(this.navigation1_Load);
             // 
             // Payment1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Form_Loading.Properties.Resources.green_leaves_abstract_background_free_vector1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1065, 519);
+            this.ClientSize = new System.Drawing.Size(1069, 528);
             this.Controls.Add(this.navigation1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);

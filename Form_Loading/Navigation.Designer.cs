@@ -80,7 +80,7 @@
             this.buttonViewProducts.Name = "buttonViewProducts";
             this.buttonViewProducts.Size = new System.Drawing.Size(133, 43);
             this.buttonViewProducts.TabIndex = 1;
-            this.buttonViewProducts.Text = "HandBags";
+            this.buttonViewProducts.Text = "Payment";
             this.buttonViewProducts.UseVisualStyleBackColor = true;
             this.buttonViewProducts.Click += new System.EventHandler(this.buttonViewProducts_Click);
             // 
@@ -177,14 +177,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Form_Loading.Properties.Resources.downloadedImage__1_1;
+            this.BackgroundImage = global::Form_Loading.Properties.Resources.downloadedImage__1_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.DoubleBuffered = true;
             this.Name = "Navigation";
-            this.Size = new System.Drawing.Size(228, 575);
+            this.Size = new System.Drawing.Size(224, 571);
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

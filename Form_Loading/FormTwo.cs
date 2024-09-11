@@ -1,4 +1,12 @@
-﻿//
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
+
+
 // FORM TWO
 // ========
 // FormTwo has a child of its own called
@@ -69,7 +77,7 @@ namespace Form_Loading {
             // FormThree.Show();
 
             // Add the new user to the dbDemo
-
+            
            
                 // Validate input (ensure fields are not empty)
                 if (!string.IsNullOrEmpty(textBox1.Text) && int.TryParse(textBox2.Text, out int password))
@@ -90,5 +98,9 @@ namespace Form_Loading {
             
         }
 
+        private void FormTwo_Load_1(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

@@ -1,4 +1,12 @@
-﻿using System;
+﻿//#####################################################################################
+//
+//  STUDIO  2 - HANDCRAFTS HEAVEN
+//
+//AUTHOR : GROUP 1(VIKASH KUMAR, SATYAM KAMBOJ, PRATHAM ARORA, KOMALPREET KAUR)
+//
+//######################################################################################
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,6 +39,11 @@ namespace Form_Loading
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void imageThreedes_Load(object sender, EventArgs e)
         {
 
         }
